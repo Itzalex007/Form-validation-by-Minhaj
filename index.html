@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <title>Form validation</title>
+</head>
+
+<body>
+<img src="conceptual-image-colorful-red-blue-color-smoke-isolated-dark-black-background-halloween-concept-design-element_315337-857.avif" alt="">
+    <h1>Welcome To The Minhaj Login Form Validation</h1>
+
+    <form action="" onsubmit="return formValidation()" name="myForm">
+        
+<div class="name">
+
+    <label for="">Name :</label>
+    <input type="text" name="fName" id="fName"> <span id="nameError" class="er"></span>
+</div>
+
+            <div class="pass">
+                <label for="">Email :</label>
+                <input type="email" name="fEmail"> <span id="emailError" class="er"></span>
+            </div>
+            
+
+<div class="phone">
+    <label for="">Phone :</label>
+    <input type="phone" name="fPhone"> <span id="phoneError" class="er"></span>
+</div>
+      
+<div class="password">
+
+    <label for="">Password :</label>
+    <input type="password" name="fPass" > <span id="passError" class="er"></span>
+</div>
+
+<div class="confirmPassword">
+
+    <label for="">Confirm Password :</label>
+    <input type="password" name="fCPass" > <span id="cPasswordError" class="er"></span>
+</div>
+
+<input type="submit" value="SUBMIT" class="btn">
+    </form>
+
+    <script src="index.js"></script>
+</body>
+
+</html>

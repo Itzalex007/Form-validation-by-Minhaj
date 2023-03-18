@@ -1,0 +1,75 @@
+span{
+    color: red;
+}
+h1{
+    padding-top: 80px;
+     text-align: center;
+     color: aqua;
+}
+input{
+    border: solid 2px darkcyan;
+    border-radius: 5px;
+}
+div{
+    padding: 20px 0px;
+    /* height: 100vh; */
+    /* width: 100vw; */
+transition: all 1s;
+color: tan;
+}
+div:hover{
+    /* background-color: aqua; */
+    font-size: 40px;
+    color: cornflowerblue;
+}
+.btn{
+    cursor: pointer;
+    padding: 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: black;
+    border-radius: 20px;
+    margin-top: 20px;
+    transition: all 1s;
+    border: solid 2px gold;
+    color: darkred;
+    font-size: 15px;
+}
+.btn:hover{
+    background-color: gold;
+    border: solid 4px green;
+font-size: 20px;
+    padding: 20px;
+
+}
+/* input{ */
+    /* transition: all 1s; */
+/* } */
+/* input:hover{ */
+    /* font-size:40px ; */
+/* } */
+form{
+    text-align: center;
+    padding: 50px;
+ color: white;   
+}
+*{
+    margin: 0;
+    padding: 0;
+
+}
+body{
+    background-color: black;
+    /* background: url(conceptual-image-colorful-red-blue-color-smoke-isolated-dark-black-background-halloween-concept-design-element_315337-857.avif);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    height: 100vh;
+    width: 100vw; */
+ 
+}
+img{
+    position: absolute;
+    width: 100vw;
+    height: 100vh;
+    z-index: -1;
+    opacity: 0.2;
+}
